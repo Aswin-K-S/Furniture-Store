@@ -1,0 +1,33 @@
+.carousel-inner img{
+    height: 500px;
+}
+
+.row img{
+    height: 200px;
+}
+.row{
+    display: flex;
+}
+.col-3{
+
+}
+
+
+
+@media screen and (max-width:400px){
+  .carousel-inner img{
+    height: 200px;
+  }
+  
+  .row img{
+    height:100px;
+  }
+  .col-3{
+    width: 80%;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  .row{
+    display: block;
+  }
+}
